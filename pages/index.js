@@ -13,14 +13,12 @@ import Style from "../styles/Home.module.css"
 import Link from "next/link";
 
 function Home(props) {
-    console.log("resutl", props)
 
     /////////////////////////////////////////////////////////////////////////////////states
     const data = useSelector((state) => state.listsState);
     const [page, setPage] = useState(1);
     const [sliceState, setSliceState] = useState(10);
-    const [item, setItem] = useState("");
-    const [open, setOpen] = useState(false);
+
     /////////////////////////////////////////////////////////////////////////////////hooks
     const dispatch = useDispatch();
 
