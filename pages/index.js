@@ -73,7 +73,7 @@ function Home(props) {
                                                         className="btn-success"
                                                         // onClick={() => handleOpen(itm)}
                                                     >
-                                                        details & edit
+                                                        details
                                                     </Button>
                                                 </Link>
                                             </Card.Body>
